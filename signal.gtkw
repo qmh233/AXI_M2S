@@ -1,0 +1,113 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Mon May 19 00:54:42 2025
+[*]
+[dumpfile] "D:\Workshop\CloudSync\ChipDesign\Learning\ModDesign\AXI_M2S\wave.vcd"
+[dumpfile_mtime] "Mon May 19 00:52:25 2025"
+[dumpfile_size] 53432
+[savefile] "D:\Workshop\CloudSync\ChipDesign\Learning\ModDesign\AXI_M2S\signal.gtkw"
+[timestart] 3999800
+[size] 1280 737
+[pos] -9 -9
+*-16.057100 3923400 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
+[treeopen] testbench.Master_Controller0.
+[sst_width] 197
+[signals_width] 228
+[sst_expanded] 1
+[sst_vpaned_height] 385
+@28
+testbench.clk
+testbench.rst_n
+@20000
+-
+@28
+testbench.AXI_MASTER_IF0.MC_WREQ
+testbench.MC_WACK
+testbench.AXI_MASTER_IF0.MC_BACK
+@22
+testbench.AXI_MASTER_IF0.MC_WADDR[31:0]
+testbench.MC_WDATA[31:0]
+@20000
+-
+@22
+testbench.AXI_MASTER_IF0.stwa_next[2:0]
+testbench.AXI_MASTER_IF0.stwa_cur[2:0]
+@23
+testbench.AXI_MASTER_IF0.stw_next[3:0]
+@22
+testbench.AXI_MASTER_IF0.stw_cur[3:0]
+testbench.AXI_MASTER_IF0.AW_ADDR[31:0]
+@28
+testbench.AXI_MASTER_IF0.AW_BURST[1:0]
+@22
+testbench.AXI_MASTER_IF0.AW_LEN[7:0]
+@28
+testbench.AXI_MASTER_IF0.AW_SIZE[2:0]
+testbench.AW_VALID
+testbench.AW_READY
+@22
+testbench.W_DATA[31:0]
+@28
+testbench.W_VALID
+testbench.W_READY
+testbench.B_RESP[1:0]
+testbench.B_VALID
+testbench.B_READY
+@22
+testbench.AXI_SLAVE_IF0.stwa_next[2:0]
+testbench.AXI_SLAVE_IF0.stwa_cur[2:0]
+testbench.AXI_SLAVE_IF0.stw_next[3:0]
+testbench.AXI_SLAVE_IF0.stw_cur[3:0]
+@20000
+-
+@28
+testbench.Slave_RegFile0.RF_WREQ
+testbench.Slave_RegFile0.RF_WACK
+@22
+testbench.AXI_SLAVE_IF0.RF_WADDR[31:0]
+testbench.RF_WDATA[31:0]
+@20000
+-
+@28
+testbench.MC_RREQ
+testbench.MC_RACK
+@22
+testbench.AXI_MASTER_IF0.MC_RADDR[31:0]
+testbench.MC_RDATA[31:0]
+@20000
+-
+@22
+testbench.AXI_MASTER_IF0.str_next[3:0]
+testbench.AXI_MASTER_IF0.str_cur[3:0]
+testbench.AXI_SLAVE_IF0.AR_ADDR[31:0]
+@28
+testbench.AXI_SLAVE_IF0.AR_BURST[1:0]
+@22
+testbench.AXI_SLAVE_IF0.AR_LEN[7:0]
+@28
+testbench.AXI_SLAVE_IF0.AR_SIZE[2:0]
+testbench.AR_VALID
+testbench.AR_READY
+@22
+testbench.R_DATA[31:0]
+@800028
+testbench.R_RESP[1:0]
+@1001200
+-group_end
+@28
+testbench.R_VALID
+testbench.R_READY
+@22
+testbench.AXI_SLAVE_IF0.str_next[3:0]
+testbench.AXI_SLAVE_IF0.str_cur[3:0]
+@20000
+-
+@28
+testbench.Slave_RegFile0.RF_RREQ
+testbench.Slave_RegFile0.RF_RACK
+@22
+testbench.AXI_SLAVE_IF0.RF_RADDR[31:0]
+testbench.RF_RDATA[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
